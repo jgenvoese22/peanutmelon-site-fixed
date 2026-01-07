@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pm-cream: #f6f1ea;
+  --pm-ink: #1a1a1a;
+  --pm-forest: #2f4a3a;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--pm-ink);
+  background: var(--pm-cream);
+}
+
+h1 { letter-spacing: -0.02em; }
